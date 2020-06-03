@@ -1,0 +1,10 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    CatFacts\Api\Normalizer\JaneObjectNormalizer: ~
+
+    CatFacts\Api\Client:
+        factory: ['CatFacts\Api\Client', 'create']
+        lazy: true

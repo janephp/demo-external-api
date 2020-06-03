@@ -40,7 +40,7 @@ inv fixtures # load fixtures
 
 Now you can see our application on [https://external-api-jane.test](https://external-api-jane.test)
 
-## And how Jane and API Platform works together ?
+## And how Jane and this external API works together ?
 
 @TODO
 

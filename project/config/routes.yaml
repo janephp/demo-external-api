@@ -1,3 +1,3 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+fact:
+    path: /fact
+    controller: App\Controller\FactController::index

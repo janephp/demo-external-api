@@ -1,0 +1,8 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <blockquote class="blockquote mt-5">
+        <p class="mb-0">{{ fact.text }}</p>
+        <footer class="blockquote-footer">Added on {{ fact.updatedAt|date('d/m/Y') }}</footer>
+    </blockquote>
+{% endblock %}
